@@ -1,12 +1,12 @@
 import './App.scss';
-
+import logoPizza from './assets/img/pizza-logo.svg';
 function App() {
   return (
     <div class="wrapper">
       <div class="header">
         <div class="container">
           <div class="header__logo">
-            <img width="38" src="./img/pizza-logo.svg" alt="Pizza logo" />
+            <img width="38" src={logoPizza} alt="Pizza logo" />
             <div>
               <h1>React Pizza</h1>
               <p>самая вкусная пицца во вселенной</p>
