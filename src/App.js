@@ -1,14 +1,10 @@
 import './App.scss';
-import Button from './Button/Button';
-import Header from './Header/Header';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div className="wrapper">
       <Header />
-      <Button outline>add</Button>
-      <Button>delete</Button>
-
       <div className="content">
         <div className="container">
           <div className="content__top">
